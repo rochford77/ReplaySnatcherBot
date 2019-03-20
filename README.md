@@ -10,5 +10,5 @@ Discord Bot for pulling .replay files from a server.
  
  #### Requirements:
  
- + (Node.js)[https://nodejs.org/en/]
- + (Discord.js)[https://discord.js.org/#/]
+ + [Node.js](https://nodejs.org/en/)
+ + [Discord.js](https://discord.js.org/#/)
