@@ -26,7 +26,7 @@ client.on('message', (receivedMessage) => {
             const request = https.get(receivedMessage.attachments.first().url, function(response) {
                 response.pipe(file);
             });
-            receivedMessage.channel.send(getRandomResponse())
+            // receivedMessage.channel.send(getRandomResponse())
         }else{
             receivedMessage.delete()
         }
